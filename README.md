@@ -1,8 +1,32 @@
-# React + Vite
+# Викторина Marvel на React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание проекта
 
-Currently, two official plugins are available:
+<img src="https://github.com/user-attachments/assets/6d55d2c5-34ef-4b9c-8243-03db8da3564e" width=250px height=300px>
+<img src="https://github.com/user-attachments/assets/5cb53f44-84b1-4bab-8e83-e6e9a9351249" width=250px height=300px>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Это простое приложение викторины на React, которое задает вопросы о фильмах Marvel. Пользователь выбирает ответы, а приложение проверяет правильность и отображает обратную связь. Приложение состоит из двух компонентов: `App` и `Quiz`.
+
+## Технологии
+- **React**
+- **JavaScript** 
+
+## Структура проекта
+- **`App`**
+- **`Quiz`**
+
+## Структура компонентов
+### **`App`**
+- Хранит массив вопросов, которые передаются в компонент `Quiz`.
+- Определяет логику создания и отображения вопросов.
+
+### **`Quiz`**
+- Отображает текущий вопрос и варианты ответов.
+- Проверяет правильность ответа и отображает соответствующую обратную связь.
+- Содержит кнопки для перехода к следующему вопросу.
+
+
+
+
+
