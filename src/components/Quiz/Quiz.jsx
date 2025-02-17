@@ -36,21 +36,25 @@ function Quiz({ questions }) {
         padding: '20px',
         width: '300px',
         margin: '50px auto',
-        borderRadius: '8px',
-        background: '#f9f9f9',
+        borderRadius: '12px',
+        background: '#FFCDB2',
       }}
     >
-      <h2>{currentQuestion.question}</h2>
+      <h2 style={{
+        fontSize:"20px",
+        fontFamily:"serif"
+      }}>{currentQuestion.question}</h2>
       <div style={{ marginBottom: '10px' }}>
         {currentQuestion.options.map((option, index) => (
           <button key={index} onClick={() => handleAnswerClick(option)}
             style={{
               width: '100%',
+              color: '#FFF6DA',
               padding: '10px',
               marginBottom: '10px',
-              borderRadius: '4px',
-              backgroundColor: '#fff',
-              border: '1px solid #ccc',
+              borderRadius: '12px',
+              backgroundColor: '#E5989B',
+              border: 'none',
               cursor: 'pointer',
               fontSize: '16px',
             }}
@@ -67,9 +71,10 @@ function Quiz({ questions }) {
           style={{
             padding: '10px',
             marginTop: '20px',
-            background: '#007BFF',
+            borderRadius: '12px',
+            backgroundColor: '#E5989B',
             color: 'white',
-            borderRadius: '5px',
+            borderRadius: '12px',
             cursor: 'pointer',
           }}
         >
